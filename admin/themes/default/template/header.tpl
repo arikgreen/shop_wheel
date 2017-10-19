@@ -242,8 +242,8 @@
 
 				{* Notifications *}
         {$show_new_orders = 1}
-    		{$show_new_customers = 1}
-    		{$show_new_messages  = 1}
+    	{$show_new_customers = 1}
+    	{$show_new_messages  = 1}
         {if $show_new_orders || $show_new_customers || $show_new_messages}
           <ul class="header-list navbar-right">
             <li id="notification" class="dropdown">
